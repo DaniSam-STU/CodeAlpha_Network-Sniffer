@@ -205,3 +205,89 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# ============================================
+# Network Sniffer Specific Files
+# ============================================
+
+# Captured packet files (can be very large - avoid committing!)
+*.pcap
+*.pcapng
+*.cap
+*.dmp
+*.pcap.gz
+*.pcapng.gz
+
+# Log files from packet capture
+*.log
+logs/
+packet_logs/
+capture_*.log
+sniffer_*.log
+
+# Temporary capture files
+temp_*.pcap
+capture_*.pcap
+sniff_*.pcap
+
+# Scapy specific files
+scapy.log
+scapy_*.pcap
+
+# Output files and reports
+output/
+reports/
+captured_packets/
+*.txt
+!requirements.txt
+!README.md
+
+# Configuration files with sensitive data
+config.ini
+config.yaml
+config.yml
+secrets.json
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.crt
+
+# Backup files from packet analysis
+*.bak
+*.backup
+*.old
+*~
+
+# Large data files
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.json
+!package.json
+!tsconfig.json
+
+# Network analysis reports
+analysis_*.html
+report_*.pdf
+graphs/
+charts/
+visualizations/
+
+# IDE specific for network analysis
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
