@@ -22,7 +22,7 @@ This project is a **basic network packet sniffer** built using **Scapy**. It cap
 - Payload data
 - Traffic behavior
 
-> 🎓 Developed for **CodeAlpha Cyber Security Internship – Task 1**
+> 🎓 Developed by DAani Sam for **CodeAlpha Cyber Security Internship – Task 1**
 
 ---
 
@@ -41,10 +41,10 @@ This project is a **basic network packet sniffer** built using **Scapy**. It cap
 ## 🖼️ Project Preview
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/sniffer-output.png" width="80%">
+  <img src="https://github.com/DaniSam-STU/CodeAlpha_Network-Sniffer/blob/main/Screenshots/Screenshot%202026-03-23%20193919.png" width="80%">
 </p>
 
-> 📌 Replace the image link above with your actual screenshot
+> 📌 After successful cloning and running this output will be generated.
 
 ---
 
@@ -69,6 +69,7 @@ python network_sniffer.py
 ```
 python sniffer.py
 ```
+---
 ## 📋 Menu Options
 1. Capture all packets
 2. Capture limited number of packets
@@ -76,3 +77,40 @@ python sniffer.py
 4. Capture on specific interface
 5. Show available interfaces
 6. Exit
+---
+## 🔍 Filters You Can Use
+| Filter | Description |
+| ------ | -----------|
+| tcp	| TCP packets |
+| udp |	UDP packets |
+| icmp	| ICMP packets |
+| port 80 |	HTTP traffic|
+| tcp and port 443 |	HTTPS traffic |
+---
+## Sample Output
+```
+[PACKET #1] - 2026-03-23 19:17:00
+================================================================================
+Source IP: 172.16.2.5
+Destination IP: 112.198.27.8
+Protocol: 6
+Protocol Name: TCP
+TTL: 128
+Packet Length: 122 bytes
+
+[TCP Layer]
+Source Port: 9187
+Destination Port: 52376
+Flags: PA
+Sequence Number: 1076403664
+Acknowledgment Number: 2159794780
+
+Payload (first 100 bytes):
+b'\x13BitTorrent protocol\x00\x00\x00\x00\x00\x18\x00\x05#\x0f2\xad\xa9\xe2\xc6\x93V\x87\xfe\x12\xcc\xb1OVb\x10nk-UW1500-cvU8evy!Bw5Y'
+Payload as text: BitTorrent protocol#2ƓV̱OVbnk-UW1500-cvU8evy!Bw5Y
+
+[Ethernet Layer]
+Source MAC: 3a:c5:c7:92:b6:fa
+Destination MAC: 98:9d:b2:20:48:6f
+Ethernet Type: 0x800
+```
