@@ -62,6 +62,7 @@ This project is a **basic network packet sniffer** built using **Scapy**. It cap
 git clone https://github.com/DaniSam-STU/CodeAlpha_Network-Sniffer.git
 cd network-sniffer
 pip install scapy
+python network_sniffer.py
 ```
 ---
 ## ▶️ Usage
