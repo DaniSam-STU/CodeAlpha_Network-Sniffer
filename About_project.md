@@ -97,7 +97,7 @@ Ethernet Type: 0x800
 *this data is for educational purposes only*
 ```
 <p align="center">
-  <img src="https://github.com/DaniSam-STU/CodeAlpha_Network-Sniffer/blob/main/Screenshots/Screenshot%202026-03-23%20193919.png" width="80%">
+  <img src="https://github.com/DaniSam-STU/CodeAlpha_Network-Sniffer/blob/main/Screenshots/Screenshot%202026-03-23%20203509.png">
 </p>
 ---
 
