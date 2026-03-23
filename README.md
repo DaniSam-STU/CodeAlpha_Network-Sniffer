@@ -59,7 +59,7 @@ This project is a **basic network packet sniffer** built using **Scapy**. It cap
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/Dani-Sam-STU/CodeAlpha_Network-Sniffer.git
+git clone https://github.com/DaniSam-STU/CodeAlpha_Network-Sniffer.git
 cd network-sniffer
 pip install scapy
 ```
